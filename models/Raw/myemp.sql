@@ -1,1 +1,1 @@
-select * from employee
+select * raw.from customers
