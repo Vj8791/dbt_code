@@ -1,0 +1,12 @@
+version: 2
+
+
+sources:
+  - name: rawdata
+    database: DBT_DT
+    schema: DBT_SH
+    tables:
+      - name: customer
+      - name: orders
+      - name: product
+      

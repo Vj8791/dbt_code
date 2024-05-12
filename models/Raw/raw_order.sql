@@ -1,1 +1,2 @@
-select * from DBT_DT.DBT_SH.ORDERS
+select * 
+from {{ source('rawdata', 'orders') }}

@@ -1,1 +1,2 @@
-select * from DBT_DT.DBT_SH.PRODUCT
+select * 
+from {{ source('rawdata', 'product') }}
