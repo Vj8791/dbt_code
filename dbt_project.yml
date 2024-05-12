@@ -42,3 +42,5 @@ models:
     # Applies to all files under models/example/
     Raw:
       +materialized: table
+    STAGE:
+      +materialized: table 
