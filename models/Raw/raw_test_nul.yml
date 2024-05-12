@@ -1,8 +1,10 @@
 version: 2
 
 models:
-  - name: raw_customer
+  - name: raw_order
     columns:
-      - name: customer_name
+      - name: order_id
         tests:
-          -- not_null
+          - not_null
+          - unique
+          
