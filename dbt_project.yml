@@ -43,4 +43,4 @@ models:
     Raw:
       +materialized: table
     STAGE:
-      +materialized: table 
+      +materialized: view 
