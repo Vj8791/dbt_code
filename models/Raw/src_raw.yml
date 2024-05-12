@@ -7,6 +7,14 @@ sources:
     schema: DBT_SH
     tables:
       - name: customer
+        columns:
+          - name: customer_id
+            tests:
+              - unique
       - name: orders
+        columns:
+          - name: order_id
+            tests:
+              - not_null
       - name: product
       
